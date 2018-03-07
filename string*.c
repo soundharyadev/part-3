@@ -1,21 +1,36 @@
 #include <stdio.h>
+
 #include<string.h>
+
 void main()
+
 {
+
 char a[50];
-int b,i,c;
+int b,i,c,d;
+clrscr();
 scanf("%s",a);
+
 b=strlen(a);
-b=c/2;
-if(c%2==0)
+c=b/2;
+if(b%2==0)
+
 {
-a[b]='*';
-s[(b)-1]='*';
+
+a[c]='*';
+
+a[(c)-1]='*';
+
 }
+
 else
+
 {
-s[b]='*';
+
+a[c]='*';
+
 }
-printf("\n%s",s);
-return 0;
+
+printf("\n%s",a);
+getch();
 }
